@@ -23,24 +23,38 @@ public class QuickSortTester{
 		arr[i] = var;
 	    }
     }
+    public static void fillerBest(int[] arr)
+    {
+	for (int i = 0; i < arr.length; i++)
+	    {
+		arr[i] = i;
+	    }
+    }
+
+    public static void printArr( int[] a ) {
+	for ( int o : a )
+	    System.out.print( o + " " );
+	System.out.println();
+    }
     
-    public static void main(String[] args){\
+    public static void main(String[] args){
 	/*
-	for (int y = 100; y <= 1000; y+= 100) {
+	for (int y = 15000; y <= 100000; y+= 1000) {
 	    startTime = System.currentTimeMillis();
-	    for (int i = 0; i < 10000; i++)
+	    for (int i = 0; i < 1000; i++)
 		{
 		    int[] arr = new int[y];
 		    fillerWorst(arr, 2);
 		    QuickSort.qsort(arr);
 		}
 	    endTime = System.currentTimeMillis();
-	    System.out.println(y + "," + ((endTime - startTime)/10000));
+	    System.out.println(y + "," + ((endTime - startTime)/1000.));
 	}
 	*/
-
-	int[] arr = new int[y];
+	
+	int[] arr = new int[15000];
 	fillerWorst(arr, 2);
+	//printArr(arr);
 	QuickSort.qsort(arr);
 	
     }

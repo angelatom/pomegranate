@@ -117,12 +117,13 @@ public class QuickSort
 
     //you may need a helper method...
 
+    
 
     //main method for testing
     public static void main( String[] args )
     {
 	
-
+/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
 	//get-it-up-and-running, static test case:
 	int [] arr1 = {7,1,5,12,3};
 	System.out.println("\narr1 init'd to: " );
@@ -147,12 +148,12 @@ public class QuickSort
 	qsort( arrN );
 	System.out.println("arrN after sort: " );
 	printArr(arrN);
-/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
+
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 	
-
+/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
 	//get-it-up-and-running, static test case w/ dupes:
 	int [] arr2 = {7,1,5,12,3,7};
 	System.out.println("\narr2 init'd to: " );
@@ -177,7 +178,7 @@ public class QuickSort
 
 	qsort( arrMatey );
 	System.out.println("arrMatey after sort: " );
-	printArr(arrMatey);/*~~~~s~l~i~d~e~~~m~e~~~d~o~w~n~~~~~~~~~~~~~~~~~~~~ (C-k, C-k, C-y) 
+	printArr(arrMatey);
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
     }//end main

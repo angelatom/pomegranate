@@ -1,5 +1,5 @@
 # pomegranate
-Team pomegranate -- Angela Tom, Tabassum Fabiha, Shayan Chowdhury
+Team pomegranate -- Angela Tom, Tabassum Fabiha, Shayan Chowdhury, Nadine Jackson
 
 APCS2 pd2
 

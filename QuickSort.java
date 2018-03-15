@@ -1,8 +1,10 @@
-//T. Fabiha
-//APCS2 pd1
-//HW18 -- QuickSort
-//2018-03-13t
-  
+/*
+Team pomegranate -- Angela Tom, Tabassum Fabiha, Shayan Chowdhury, Nadine Jackson
+APCS2 pd2
+L01 -- What Does the Data Say?
+2018-03-14
+*/
+
 /*****************************************************
  * class QuickSort
  * Implements quicksort algo to sort an array of ints in place

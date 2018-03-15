@@ -27,7 +27,7 @@ Summary of QuickSort algorithm:
                  stored number to @param right.
 
 # Methodology
-We tested the runtime of our quicksort algorithm by testing different sizes of arrays ranging from 1000 to 14,000, adding 1000 array sizes at a time.
+We tested the runtime of our quicksort algorithm by testing different sizes of arrays ranging from 1000 to 100,000, adding 1000 array sizes at a time.
 For each size, we ran 1000 trials and divided the overall time by 1000 to get an average runtime for the certain array size.
 In our experiment, we ran the worst case tests, best case tests, and then normal tests respectively.
 Data is sent into a csv file.
